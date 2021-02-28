@@ -10,7 +10,7 @@ The keyboard uses a modified transport library created by [drashna's work on the
 You can find this modified firmware here: [https://github.com/foureight84/qmk_firmware/tree/sofle_foureight84](https://github.com/foureight84/qmk_firmware/tree/sofle_foureight84)
 All relevant files are contained in the `keyboards/sofle/keymaps/foureight84/` directory.
 
-This modification takes away one encoder. The trade-off is gaining more features and not have to move your hands away from the keyboard often. I haven't had a chance to look at the Sofle V2 yet to see where the new pin-outs have been rerouted to / or still easily accessible. However, you should be able to wire the Pimoroni directly to the MCU I2C and power pins.
+This modification takes away one encoder. The trade-off is gaining more features and not have to move your hands away from the keyboard often. I haven't had a chance to look at the Sofle v2 yet to see where the new pin-outs have been rerouted to / or still easily accessible. However, you should be able to wire the Pimoroni directly to the MCU I2C and power pins.
 
 ## Keyboard Build Guide
 This guide only focuses on adding the Pimoroni trackball and assumes that you have already built your Sofle Keyboard. If you haven't gotten there yet, here is the [official build guide documentation](https://josefadamcik.github.io/SofleKeyboard/)
@@ -62,7 +62,7 @@ The trackball motion will scroll when the `_LOWER` layer is active. The default 
 ```
 
 ### Keymap
-Keymap has been changed slightly from Sofle's default. A new `_MOUSE` layer has been added to provide mouse button functionality (left and right clicks). Pressing the trackball on any layer will activate left click (trackball click is disabled in scroll mode). The `_MOUSE` layer can be activated while `_LOWER` layer is active and the `Left Control` key is pressed. Once `_MOUSE` layer is active, you only need to hold down the `Left Control` key to keep the layer active. `h` and `j' becomes left and right mouse buttons. To perform a click drag, for example, hold the `h` while manipulating the trackball.
+Keymap has been changed slightly from Sofle's default. A new `_MOUSE` layer has been added to provide mouse button functionality (left and right clicks). Pressing the trackball on any layer will activate left click (trackball click is disabled in scroll mode). The `_MOUSE` layer can be activated while `_LOWER` layer is active and the `Left Control` key is pressed. Once `_MOUSE` layer is active, you only need to hold down the `Left Control` key to keep the layer active. `h` and `j` becomes left and right mouse buttons. To perform a click drag, for example, hold the `h` while manipulating the trackball.
 
 Activating the `_RAISE` layer will change the encoder's functionality from the default volume up/down/mute to previous track/next tract/play and pause.
 
