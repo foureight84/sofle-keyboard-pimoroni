@@ -12,6 +12,9 @@ All relevant files are contained in the `keyboards/sofle/keymaps/foureight84/` d
 
 This modification takes away one encoder. The trade-off is gaining more features and not have to move your hands away from the keyboard often. I haven't had a chance to look at the Sofle V2 yet to see where the new pin-outs have been rerouted to / or still easily accessible. However, you should be able to wire the Pimoroni directly to the MCU I2C and power pins.
 
+## Keyboard Build Guide
+This guide only focuses on adding the Pimoroni trackball assuming that you have already built your Sofle Keyboard. If you haven't gotten there yet, here is the [official build guide documentation](https://josefadamcik.github.io/SofleKeyboard/)
+
 ## QMK
 Due to the way transport works with split keyboards, `EE_HANDS` is used to set handedness. When flashing the firmware, make sure to use the correct syntax based on your MCU.
 
