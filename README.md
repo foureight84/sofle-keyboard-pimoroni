@@ -1,4 +1,4 @@
-# [Pimoroni Trackball](https://shop.pimoroni.com/products/trackball-breakout) integration with [Sofle Keyboard](https://josef-adamcik.cz/electronics/let-me-introduce-you-sofle-keyboard-split-keyboard-based-on-lily58.html)
+# [Pimoroni Trackball](https://shop.pimoroni.com/products/trackball-breakout) integration with [Sofle Keyboard V1.1](https://josef-adamcik.cz/electronics/let-me-introduce-you-sofle-keyboard-split-keyboard-based-on-lily58.html)
 
 ![SofleKeyboard with Pimoroni Trackball](https://raw.githubusercontent.com/foureight84/sofle-keyboard-pimoroni/master/images/full_view.jpg)
 
@@ -9,7 +9,7 @@ The keyboard uses a modified transport library created by [drashna's work on the
 
 You can find this modified firmware here: [https://github.com/foureight84/qmk_firmware/tree/sofle_foureight84](https://github.com/foureight84/qmk_firmware/tree/sofle_foureight84)
 
-This modification takes away one encoder. The trade-off is gaining more features and not have to move your hands away from the keyboard often.
+This modification takes away one encoder. The trade-off is gaining more features and not have to move your hands away from the keyboard often. I haven't had a chance to look at the Sofle V2 yet to see where the new pin-outs have been rerouted to / or still easily accessible. However, you should be able to wire the Pimoroni directly to the MCU I2C and power pins.
 
 ## QMK
 Due to the way transport works with split keyboards, `EE_HANDS` is used to set handedness. When flashing the firmware, make sure to use the correct syntax based on your MCU.
