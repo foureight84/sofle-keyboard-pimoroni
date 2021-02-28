@@ -160,7 +160,7 @@ The (5) Round needle pin female headers will need to be split into a set of two 
 
 The (5) 90 Degree pin headers will be soldered onto the Pimoroni trackball. For the (4) jumper wires, you will need to crimp the Dupont connectors on one end and solder the male round needle pin headers on the other end.
 
-After 3 printing the Pimoroni trackball mount, attach the (4) M2 6+3mm Male-Female Standoffs.
+Attach the (4) M2 6+3mm Male-Female Standoffs to the 3d printed the Pimoroni trackball mount.
 
 ![Pimoroni Mount](https://raw.githubusercontent.com/foureight84/sofle-keyboard-pimoroni/master/images/Pimoroni_mount.jpg)
 
