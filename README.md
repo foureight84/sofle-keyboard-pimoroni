@@ -16,10 +16,10 @@ This modification takes away one encoder. The trade-off is gaining more features
 Due to the way transport works with split keyboards, `EE_HANDS` is used to set handedness. When flashing the firmware, make sure to use the correct syntax based on your MCU.
 
 ### Cloning Firmware
+https://github.com/foureight84/qmk_firmware/tree/sofle_foureight84
+
 ```
-    git clone git@github.com:foureight84/qmk_firmware.git
-    git checkout sofle_foureight84
-    
+    git clone --branch sofle_foureight84 git@github.com:foureight84/qmk_firmware.git
 ```
 
 ### Flashing
