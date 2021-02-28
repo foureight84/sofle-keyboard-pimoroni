@@ -9,6 +9,8 @@ The keyboard uses a modified transport library created by [drashna's work on the
 
 You can find this modified firmware here: [https://github.com/foureight84/qmk_firmware/tree/sofle_foureight84](https://github.com/foureight84/qmk_firmware/tree/sofle_foureight84)
 
+This modification takes away one encoder. The trade-off is gaining more features and not have to move your hands away from the keyboard often.
+
 ## QMK
 Due to the way transport works with split keyboards, `EE_HANDS` is used to set handedness. When flashing the firmware, make sure to use the correct syntax based on your MCU.
 
@@ -50,7 +52,7 @@ The trackball motion will scroll when the `_LOWER` layer is active. The default 
 ```
 
 ### Keymap
-Keymap has been changed slightly from Sofle's default. A new `_MOUSE` layer has been added to provide mouse button functionality. This can be activated while on the `_LOWER` layer and pressing the `Left Control` Key. Once `_MOUSE` is active, the `_LOWER` layer key can be released.
+Keymap has been changed slightly from Sofle's default. A new `_MOUSE` layer has been added to provide mouse button functionality (left and right clicks). Pressing the trackball will activate left click (trackball click is disabled in scroll mode). The `_MOUSE` layer can be activated while active on the `_LOWER` layer and pressing the `Left Control` Key. Once `_MOUSE` is active, the `_LOWER` layer key can be released.
 
 Activating the `_RAISE` layer will change the encoder's functionality from the default volume up/down/mute to previous track/next tract/play and pause.
 
