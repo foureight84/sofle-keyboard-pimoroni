@@ -17,22 +17,26 @@ Due to the way transport works with split keyboards, `EE_HANDS` is used to set h
 #### Elite-C
 Left hand:
 
-```qmk flash -kb sofle/rev1 -km foureight84 -bl dfu-split-left
+```
+qmk flash -kb sofle/rev1 -km foureight84 -bl dfu-split-left
 ```
 Right hand:
 
-```qmk flash -kb sofle/rev1 -km foureight84 -bl dfu-split-left
+```
+qmk flash -kb sofle/rev1 -km foureight84 -bl dfu-split-left
 ```
 
 #### Pro-Micro
 
 Left hand:
 
-```qmk flash -kb sofle/rev1 -km foureight84 -bl avrdude-split-left
+```
+qmk flash -kb sofle/rev1 -km foureight84 -bl avrdude-split-left
 ```
 Right hand:
 
-```qmk flash -kb sofle/rev1 -km foureight84 -bl avrdude-split-left
+```
+qmk flash -kb sofle/rev1 -km foureight84 -bl avrdude-split-left
 ```
 
 ### Firmware Build Customizations
