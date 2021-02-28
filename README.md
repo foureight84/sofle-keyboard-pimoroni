@@ -8,6 +8,7 @@ This builds upon existing work by [sevanteri](https://github.com/sevanteri) and 
 The keyboard uses a modified transport library created by [drashna's work on the Dactyl Manuform](https://github.com/drashna/qmk_firmware/tree/master/keyboards/handwired/dactyl_manuform/5x6_right_trackball) to send pointing movement from off-hand to the main-hand. I've also modified the Pimoroni library created by [seventari](https://github.com/sevanteri/qmk_firmware/tree/master/users/sevanteri) to use this custom transport. I couldn't have been able to get this working properly without Drashna's help (THANK YOU!).
 
 You can find this modified firmware here: [https://github.com/foureight84/qmk_firmware/tree/sofle_foureight84](https://github.com/foureight84/qmk_firmware/tree/sofle_foureight84)
+All relevant files are contained in the `keyboards/sofle/keymaps/foureight84/` directory.
 
 This modification takes away one encoder. The trade-off is gaining more features and not have to move your hands away from the keyboard often. I haven't had a chance to look at the Sofle V2 yet to see where the new pin-outs have been rerouted to / or still easily accessible. However, you should be able to wire the Pimoroni directly to the MCU I2C and power pins.
 
