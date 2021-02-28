@@ -144,9 +144,9 @@ You will need the following:
 - **(5)** Round Needle Pin Headers (Male and Female) 2.54mm pitch
 - **(5)** 90 degree pin header 2.54mm pitch
 
-I've also designed a 7 degree base and PCB skirt for the PCB that can be 3d printed as well:
-Base: https://www.thingiverse.com/thing:4755855
-Skirt: https://www.thingiverse.com/thing:4754454
+I've also designed a 7 degree base and PCB skirt for the PCB that can be 3d printed as well.
+- Base: https://www.thingiverse.com/thing:4755855
+- Skirt: https://www.thingiverse.com/thing:4754454
 
 ### Steps:
 The (5) Round needle pin female headers will need to be split into a set of two and a set of three pins. You will need to solder the two to the I2C pins above the encoder and the 3 pins for the LED. The I2C pins are labeled 2 SCL and 2 SDA, and the 3 pins labeled GND, LED, and VCC (see second PCB photo).
