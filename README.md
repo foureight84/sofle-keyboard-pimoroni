@@ -140,7 +140,8 @@ You will need the following:
 - **(1)** 3d printed Pimoroni mount (https://www.thingiverse.com/thing:4756591)
 - **(4)** M2 6+3mm Male-Female Standoffs
 - **(4)** M2 4mm Screws
-- **(4)** Jumper wires (with t connectors on one end)
+- **(4)** Jumper wires 
+- **(4)** Dupont connectors
 - **(5)** Round Needle Pin Headers (Male and Female) 2.54mm pitch
 - **(5)** 90 degree pin header 2.54mm pitch
 
