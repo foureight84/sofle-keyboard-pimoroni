@@ -5,7 +5,7 @@
 ## Preface
 This builds upon existing work by [sevanteri](https://github.com/sevanteri) and [drashna](https://github.com/drashna) from QMK to add trackball support to the Sofle Keyboard designed by [Josef Adamčík](https://josef-adamcik.cz/)
 
-The keyboard uses a modified transport library created by [drashna's work on the Dactyl Manuform](https://github.com/drashna/qmk_firmware/tree/master/keyboards/handwired/dactyl_manuform/5x6_right_trackball) to send pointing movement from off-hand to the main-hand. I've also modified the Pimoroni library created by [seventari](https://github.com/sevanteri/qmk_firmware/tree/master/users/sevanteri) to use this custom transport.
+The keyboard uses a modified transport library created by [drashna's work on the Dactyl Manuform](https://github.com/drashna/qmk_firmware/tree/master/keyboards/handwired/dactyl_manuform/5x6_right_trackball) to send pointing movement from off-hand to the main-hand. I've also modified the Pimoroni library created by [seventari](https://github.com/sevanteri/qmk_firmware/tree/master/users/sevanteri) to use this custom transport. I couldn't have been able to get this working properly without Drashna's help (THANK YOU!).
 
 You can find this modified firmware here: [https://github.com/foureight84/qmk_firmware/tree/sofle_foureight84](https://github.com/foureight84/qmk_firmware/tree/sofle_foureight84)
 
