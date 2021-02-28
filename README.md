@@ -136,13 +136,13 @@ Activating the `_RAISE` layer will change the encoder's functionality from the d
 On the hardware side, the Pimoroni trackball utilizes the open I2C pins above the rotary encoder and the VCC and GND for the LED.
 
 You will need the following:
-**(1)** Pimoroni Trackball (of course)
-**(1)** 3d printed Pimoroni mount (https://www.thingiverse.com/thing:4756591)
-**(4)** M2 6+3mm Male-Female Standoffs
-**(4)** M2 4mm Screws
-**(4)** Jumper wires (with t connectors on one end)
-**(5)** Round Needle Pin Headers (Male and Female) 2.54mm pitch
-**(5)** 90 degree pin header 2.54mm pitch
+- **(1)** Pimoroni Trackball (of course)
+- **(1)** 3d printed Pimoroni mount (https://www.thingiverse.com/thing:4756591)
+- **(4)** M2 6+3mm Male-Female Standoffs
+- **(4)** M2 4mm Screws
+- **(4)** Jumper wires (with t connectors on one end)
+- **(5)** Round Needle Pin Headers (Male and Female) 2.54mm pitch
+- **(5)** 90 degree pin header 2.54mm pitch
 
 I've also designed a 7 degree base and PCB skirt for the PCB that can be 3d printed as well:
 Base: https://www.thingiverse.com/thing:4755855
