@@ -62,7 +62,7 @@ The trackball motion will scroll when the `_LOWER` layer is active. The default 
 ```
 
 ### Keymap
-Keymap has been changed slightly from Sofle's default. A new `_MOUSE` layer has been added to provide mouse button functionality (left and right clicks). Pressing the trackball will activate left click (trackball click is disabled in scroll mode). The `_MOUSE` layer can be activated while active on the `_LOWER` layer and pressing the `Left Control` Key. Once `_MOUSE` is active, the `_LOWER` layer key can be released.
+Keymap has been changed slightly from Sofle's default. A new `_MOUSE` layer has been added to provide mouse button functionality (left and right clicks). Pressing the trackball on any layer will activate left click (trackball click is disabled in scroll mode). The `_MOUSE` layer can be activated while active on the `_LOWER` layer and pressing the `Left Control` Key. Once `_MOUSE` is active, the `_LOWER` layer key can be released.
 
 Activating the `_RAISE` layer will change the encoder's functionality from the default volume up/down/mute to previous track/next tract/play and pause.
 
