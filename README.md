@@ -61,6 +61,13 @@ The trackball motion will scroll when the `_LOWER` layer is active. The default 
     #define TRACKBALL_REVERSE_HSCROLL true //Horizontal scroll
 ```
 
+#### Trackball LED Timeout
+By default, no trackball activity will put its LED to sleep. Timemout default can be overwritten in `config.h`. Timeout is expressed in milliseconds. A value of `0` sets LED to always on. Alternatively, the method `trackball_set_rgbw` can be used in place of `trackball_set_timed_rgbw` to ignore LED timeout.
+
+```
+    #define TRACKBALL_LED_TIMEOUT 5000 // time in milliseconds
+```
+
 ### Keymap
 Keymap has been changed slightly from Sofle's default. A new `_MOUSE` layer has been added to provide mouse button functionality (left and right clicks). Pressing the trackball on any layer will activate left click (trackball click is disabled in scroll mode). The `_MOUSE` layer can be activated while `_LOWER` layer is active and the `Left Control` key is pressed. Once `_MOUSE` layer is active, you only need to hold down the `Left Control` key to keep the layer active. `h` and `j` become left and right mouse buttons. To perform a click drag, for example, hold the `h` while manipulating the trackball.
 
