@@ -54,7 +54,7 @@ qmk flash -kb sofle/rev1 -km foureight84 -bl avrdude-split-left
 ### Firmware Build Customizations
 
 #### Scrolling direction
-The trackball motion will scroll when the `_LOWER` layer is active. The default scroll movement matches the trackball's direction. If you want to reverse the horizonal or verical scroll directions, add the following to ```keyboards/sofle/keymaps/foureight84/config.h```:
+The trackball motion will scroll when the `_LOWER` layer is active. The default scroll movement matches the trackball's direction. If you want to reverse the horizonal or verical scroll directions, add the following constants to ```keyboards/sofle/keymaps/foureight84/config.h```:
 
 ```
     #define TRACKBALL_REVERSE_VSCROLL true //Vertical scroll
@@ -62,7 +62,7 @@ The trackball motion will scroll when the `_LOWER` layer is active. The default 
 ```
 
 #### Trackball LED Timeout
-By default, no trackball activity will put its LED to sleep. Timemout default can be overwritten in `config.h`. Timeout is expressed in milliseconds. A value of `0` sets LED to always on. Alternatively, the method `trackball_set_rgbw` can be used in place of `trackball_set_timed_rgbw` to ignore LED timeout.
+By default, no trackball activity will put its LED to sleep. Timemout default can be overwritten in `config.h` using the `TRACKBALL_LED_TIMEOUT` constant. Timeout is expressed in milliseconds. A value of `0` sets LED to always on. Alternatively, the method `trackball_set_rgbw` can be used in place of `trackball_set_timed_rgbw` to ignore LED timeout.
 
 ```
     #define TRACKBALL_LED_TIMEOUT 5000 // time in milliseconds
