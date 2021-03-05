@@ -150,7 +150,7 @@ Activating the `_RAISE` layer will change the encoder's functionality from the d
               `----------------------------------'           '------''---------------------------'
 ```
 
-## Hardware Build
+## Pimoroni Trackball Add-on
 
 On the hardware side, the Pimoroni trackball utilizes the open I2C pins above the rotary encoder and the VCC and GND for the LED.
 
