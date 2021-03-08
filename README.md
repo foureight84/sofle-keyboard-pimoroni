@@ -35,7 +35,7 @@ qmk flash -kb sofle/rev1 -km foureight84 -bl dfu-split-left
 Right hand:
 
 ```
-qmk flash -kb sofle/rev1 -km foureight84 -bl dfu-split-left
+qmk flash -kb sofle/rev1 -km foureight84 -bl dfu-split-right
 ```
 
 #### Pro-Micro
@@ -48,7 +48,7 @@ qmk flash -kb sofle/rev1 -km foureight84 -bl avrdude-split-left
 Right hand:
 
 ```
-qmk flash -kb sofle/rev1 -km foureight84 -bl avrdude-split-left
+qmk flash -kb sofle/rev1 -km foureight84 -bl avrdude-split-right
 ```
 
 ### Firmware Build Customizations
