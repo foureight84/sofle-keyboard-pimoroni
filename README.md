@@ -1,4 +1,4 @@
-# [Pimoroni Trackball](https://shop.pimoroni.com/products/trackball-breakout) integration with [Sofle Keyboard v1.1](https://josef-adamcik.cz/electronics/let-me-introduce-you-sofle-keyboard-split-keyboard-based-on-lily58.html)
+# [Pimoroni Trackball](https://shop.pimoroni.com/products/trackball-breakout) integration with [Sofle Keyboard v1.1 and v2.1](https://josef-adamcik.cz/electronics/let-me-introduce-you-sofle-keyboard-split-keyboard-based-on-lily58.html)
 
 ![SofleKeyboard with Pimoroni Trackball](https://raw.githubusercontent.com/foureight84/sofle-keyboard-pimoroni/master/images/full_view.jpg)
 
