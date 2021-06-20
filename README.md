@@ -10,7 +10,7 @@ The keyboard uses a modified transport library created by [drashna's work on the
 You can find this modified firmware here: [https://github.com/foureight84/qmk_firmware/tree/sofle_foureight84](https://github.com/foureight84/qmk_firmware/tree/sofle_foureight84)
 All relevant files are contained in the `keyboards/sofle/keymaps/foureight84/` directory.
 
-This modification takes away one encoder. The trade-off is gaining more features and not have to move your hands away from the keyboard often. I haven't had a chance to look at the Sofle v2 yet to see where the new pin-outs have been rerouted to / or still easily accessible. However, you should be able to wire the Pimoroni directly to the MCU I2C and power pins.
+This modification takes away one encoder. The trade-off is gaining more features and not have to move your hands away from the keyboard often. ~~I haven't had a chance to look at the Sofle v2 yet to see where the new pin-outs have been rerouted to / or still easily accessible. However, you should be able to wire the Pimoroni directly to the MCU I2C and power pins.~~ Looks like the I2C pins are still available on the V2 revision as per this [reddit post](https://www.reddit.com/r/ErgoMechKeyboards/comments/o3zwgn/sofle_v21_rgb_pcb_with_trackball/) by [tenstaana](https://www.reddit.com/user/tenstaana/)
 
 ## Keyboard Build Guide
 This guide only focuses on adding the Pimoroni trackball and assumes that you have already built your Sofle Keyboard. If you haven't gotten there yet, here is the [official build guide documentation](https://josefadamcik.github.io/SofleKeyboard/)
