@@ -20,7 +20,7 @@ This guide only focuses on adding the Pimoroni trackball and assumes that you ha
 ### Cloning Firmware
 https://github.com/foureight84/qmk_firmware/tree/sofle_foureight84
 
-#### Out of date branch. Has Bongo Cat and WPM animation in sofle/foureight84/keymap.c. Firmware takes up 99% of memory space with animation, not much room to enable other QMK features.
+#### `Out of date branch.` Has Bongo Cat and WPM animation in sofle/foureight84/keymap.c. Firmware takes up 99% of memory space with animation, not much room to enable other QMK features.
 ```
 git clone --branch sofle_foureight84 https://github.com/foureight84/qmk_firmware.git
 ```
