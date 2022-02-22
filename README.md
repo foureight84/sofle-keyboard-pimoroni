@@ -20,9 +20,16 @@ This guide only focuses on adding the Pimoroni trackball and assumes that you ha
 ### Cloning Firmware
 https://github.com/foureight84/qmk_firmware/tree/sofle_foureight84
 
+#### Out of date branch
 ```
 git clone --branch sofle_foureight84 https://github.com/foureight84/qmk_firmware.git
 ```
+
+#### Using `develop` branch, newer Pimoroni Trackball implementation and split kb communication
+```
+git clone --branch sofle_foureight84_develop https://github.com/foureight84/qmk_firmware.git
+```
+
 ### Flashing
 Due to the way transport works with split keyboards, `EE_HANDS` is used to set handedness. When flashing the firmware, make sure to use the correct syntax based on your MCU.
 
