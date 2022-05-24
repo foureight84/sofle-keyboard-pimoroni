@@ -25,9 +25,9 @@ https://github.com/foureight84/qmk_firmware/tree/sofle_foureight84
 git clone --branch sofle_foureight84 https://github.com/foureight84/qmk_firmware.git
 ```
 
-#### Using `develop` branch, newer Pimoroni Trackball implementation and native split kb communication instead of custom transport. Bongo cat and WPM animation removed for now due to size.
+#### Using `sofle_foureight84_v2` branch, newer Pimoroni Trackball implementation and native split kb communication instead of custom transport. 
 ```
-git clone --branch sofle_foureight84_develop https://github.com/foureight84/qmk_firmware.git
+git clone --branch sofle_foureight84_v2 https://github.com/foureight84/qmk_firmware.git
 ```
 
 ### Flashing
