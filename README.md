@@ -20,10 +20,10 @@ This guide only focuses on adding the Pimoroni trackball and assumes that you ha
 ### Cloning Firmware
 https://github.com/qmk/qmk_firmware.git
 
-'foureight84' keymap is now part of QMK's master branch.
+'foureight84' keymap is now part of QMK's master branch. See [guide](https://github.com/qmk/qmk_firmware/blob/master/docs/newbs_getting_started.md) for setting up your QMK environment
 
 ```
-git clone https://github.com/qmk/qmk_firmware.git
+qmk setup
 ```
 
 ### Flashing
