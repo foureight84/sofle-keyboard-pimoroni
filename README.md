@@ -18,16 +18,12 @@ This guide only focuses on adding the Pimoroni trackball and assumes that you ha
 ## QMK
 
 ### Cloning Firmware
-https://github.com/foureight84/qmk_firmware/tree/sofle_foureight84
+https://github.com/qmk/qmk_firmware.git
 
-#### `Out of date branch.` Has Bongo Cat and WPM animation in sofle/foureight84/keymap.c. Firmware takes up 99% of memory space with animation, not much room to enable other QMK features.
-```
-git clone --branch sofle_foureight84 https://github.com/foureight84/qmk_firmware.git
-```
+'foureight84' keymap is now part of QMK's master branch.
 
-#### Using `sofle_foureight84_v2` branch, newer Pimoroni Trackball implementation and native split kb communication instead of custom transport. 
 ```
-git clone --branch sofle_foureight84_v2 https://github.com/foureight84/qmk_firmware.git
+git clone https://github.com/qmk/qmk_firmware.git
 ```
 
 ### Flashing
